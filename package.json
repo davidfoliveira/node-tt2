@@ -9,9 +9,9 @@
   },
   "main": "./httprequire",
   "bin": { },
-  "dependencies": { }
-  "devDependencies": {},
-  "optionalDependencies": {},
+  "dependencies": { },
+  "devDependencies": { },
+  "optionalDependencies": { },
   "license": "Copyleft",
   "engines": {
     "node": ">=0.10.5"
