@@ -1,0 +1,24 @@
+{
+  "author": "David Oliveira <d.oliveira@prozone.org>",
+  "name": "tt2",
+  "description": "A template toolking (TT2) parser/processor",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidfoliveira/node-tt2/"
+  },
+  "main": "./httprequire",
+  "bin": { },
+  "dependencies": { }
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "license": "Copyleft",
+  "engines": {
+    "node": ">=0.10.5"
+  },
+  "keywords": [
+    "tt2",
+    "template",
+    "toolkit"
+  ]
+}

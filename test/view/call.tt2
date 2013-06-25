@@ -1,0 +1,2 @@
+A: Hello sir, how are you ?
+B: I am [% CALL someobject.somefunc() %][% feeling %]

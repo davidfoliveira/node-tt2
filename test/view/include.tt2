@@ -1,0 +1,2 @@
+Hi! I am a pretty basic text.
+[% INCLUDE include_child %]

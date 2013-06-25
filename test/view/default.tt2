@@ -1,0 +1,3 @@
+A: Hello sir!
+[% DEFAULT name = "captain" -%]
+B: Hello [% name %]!

@@ -1,0 +1,10 @@
+A: Hi! How are you ?
+[% PROCESS repeat tell="happy" %]
+
+A: Yey!!
+
+[% BLOCK repeat -%]
+[% tell %]
+[% tell %]
+[% tell %]
+[% END -%]

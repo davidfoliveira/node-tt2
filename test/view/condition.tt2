@@ -1,0 +1,22 @@
+A: Hi! This is [% IF hour > 12 %]late[% ELSE %]early[% END %]!
+B: Is: [% IF hour < 24;
+     IF hour >= 23 -%]23[% ELSIF hour >= 22 %]22[% ELSIF hour > 20 %]21[% ELSIF hour > 19 %]20[% ELSIF hour > 18 %]19[% ELSIF hour > 17 %]18[% ELSIF hour > 16 %]17[% ELSIF hour > 15 %]16[% ELSIF hour > 14 %]15[% ELSE %]unpredictable time of [% hour %] o'clock[% END ; END %]
+
+[% IF NOT hour > 20 %]
+A: Is not sooo late
+[% ELSE -%]
+A: Geez is late!!
+[% END %]
+
+B: How are you feeling right now ?
+[% IF feeling = "flying" -%]
+A: <img src="http://icons.iconarchive.com/icons/martz90/circle-addon2/64/plane-flight-icon.png" alt="airplane" />
+[% ELSIF feeling = "cool" -%]
+A: <img src="http://icons.iconarchive.com/icons/deleket/keriyo-emoticons/64/Smiley-cool-icon.png" alt="sun glasses" />
+[% ELSE -%]
+A: <img src="http://lorempixel.com/400/200/" alt="random feeling" />
+[% END %]
+
+B: Ah..
+A: [% IF NOT hour > 20 AND feeling = "cool" -%]Is early and i'm cool[% ELSE %]meeh[% END %]
+

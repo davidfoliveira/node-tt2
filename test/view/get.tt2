@@ -1,0 +1,8 @@
+A: Hello sir!
+B: [% GET somevar %]
+
+A: How are you sir?
+B: I'm [% someobject.someproperty %]. Thank you for asking.
+
+A: You look tired sir... how many hours did you sleep today ?
+B: About [% GET someobject.somefunc(2) %] hours

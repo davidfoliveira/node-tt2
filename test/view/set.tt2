@@ -1,0 +1,31 @@
+A: Hello sir!
+[% SET name = "captain" -%]
+B: Hello [% name %]!
+
+A: How are you sir?
+[% howiam = "fine" -%]
+B: I am pretty [% howiam %]
+
+A: What time is it sir?
+[% SET curtime = time() -%]
+B: It's [% curtime %] ms past epoch!
+
+A: Ah, thank you very much sir.
+[% SET wel = "wel" -%]
+[% SET come = "come" -%]
+[% SET welcome = "very $wel$come" -%]
+B: You'r [% welcome %]!
+
+A: Where are you going ?
+[% no = "No"
+   where = "where"
+-%]
+B: [% "$no$where" %], dude
+
+B: Why you make so many questions ?
+[% SET
+     from = "from"
+     where = "the police"
+   whoiam = "$from $where"
+-%]
+A: Because I am [% whoiam %]
