@@ -1,5 +1,5 @@
 A: Hi! How are you ?
-[% PROCESS repeat tell="happy" %]
+[% PROCESS repeat tell="happy" -%]
 
 A: Yey!!
 

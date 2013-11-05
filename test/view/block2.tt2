@@ -1,0 +1,6 @@
+[% INCLUDE block2_describe.tt2 -%]
+A: Hi! Do you have childs and grandchilds?
+B: Yes!
+
+A: What are their names?
+[% PROCESS describe x={name:'Me',childs:[{name:'Son1',childs:[{name:'Maria'},{name:'Josefina'}]},{name:'Son2',childs:[{name:'Alpina'},{name:'Carapintola'}]}]} -%]
