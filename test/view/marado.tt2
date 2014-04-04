@@ -1,0 +1,2 @@
+[% IF header_2 %][% header_2 %][% END -%][% IF hnav_2 %][% hnav_2 %][% END -%][% IF rightbar -%][% rightbar %][% END -%][% IF footer_2 %][% footer_2 %][% END -%]
+
